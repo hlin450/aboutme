@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding-top: 56px;
+}
+
+/* choose your color and force-override any Bootstrap defaults */
+body {
+  background-color: #0f0540 !important;
+}
+
+/* target all links inside your custom navbar */
+.navbar-custom .nav-link {
+  color: #000 !important;
+}
+/* optional: slightly darker on hover */
+.navbar-custom .nav-link:hover {
+  color: #333 !important;
+}
+.navbar-custom {
+  background-color: #ed8e09;
+}
+
+.mb-3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.lead.mb-3 {
+  font-family: "Merriweather", serif;
+  font-size: 1.25rem;
+  font-style: italic;
+}
+
+.highlight {
+  color: #ff6f00;
+}
+
+.bw-image {
+  filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.bw-image:hover {
+  filter: saturate(150%);
+}
+
+/* Center the navbar links */
+/* styl.css (or your actual stylesheet) */
+
+/* 1) Make the inner .container a flex‐box and center it */
+nav .container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn-linkedin {
+  background-color: #0a66c2;
+  color: #fff;
+  border: none;
+}
+.btn-linkedin:hover {
+  background-color: #004182;
+}
